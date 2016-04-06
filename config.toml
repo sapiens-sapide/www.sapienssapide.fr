@@ -1,4 +1,4 @@
-baseurl = "http://localhost:7888/"
+baseurl = "http://192.168.1.12:8888/"
 languageCode = "fr-fr"
 title = "sapiens.sapide"
 theme = "hugo-agency-theme"
@@ -14,8 +14,8 @@ theme = "hugo-agency-theme"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "sapiens.sapide & Stanislas SABATIER"
+	description = "Agence de développements informatiques et d'hébergement de services, spécialisée en javascript, meteorJS, GO / golang, freeBSD, email."
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -28,7 +28,7 @@ theme = "hugo-agency-theme"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "your@email.com"
+	email = "contact@sapienssapide.fr"
 
 
 	# Navigation
