@@ -1,0 +1,7 @@
+title = "Segid"
+subtitle = "Application web/mobile de gestion de la qualité"
+preview = "segid.png"
+clientLink = "https://qualite.segid.fr"
+tags = ["MeteorJS","Go","mongoDB","css-bootstrap"]
+#max 20 words
+description = "Développement full-stack d'une web-app mobile + interface d'administration et tableau de bord qualité pour 400 chantiers"

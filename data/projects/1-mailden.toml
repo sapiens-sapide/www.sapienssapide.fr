@@ -1,0 +1,7 @@
+title = "Mailden"
+subtitle = "Service de emails sécurisés"
+preview = "mailden.png"
+clientLink = "https://www.mailden.net"
+tags = ["C","freeBSD","adminsys","Go","nodeJS","webDAV"]
+#max 20 words
+description = "Conception et commercialisation d'un service email qui chiffre les emails avant stockage sur serveur."

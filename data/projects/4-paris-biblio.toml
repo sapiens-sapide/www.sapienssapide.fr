@@ -1,0 +1,7 @@
+title = "Paris Bibliothèques"
+subtitle = "Site web marchand et d'information des bibliothèques de la Ville de Paris"
+preview = "paris-biblio.jpg"
+clientLink = "https://www.paris-bibliotheques.org"
+tags = ["wordpress","prestashop"]
+#max 20 words
+description = "Site web présentant les manifestations culturelles des bibliothèques, gestion en ligne des inscriptions aux événements, boutique."

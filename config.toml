@@ -1,3 +1,230 @@
-baseurl = "http://localhost"
+baseurl = "http://localhost:7888/"
 languageCode = "fr-fr"
 title = "sapiens.sapide"
+theme = "hugo-agency-theme"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "your@email.com"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "sapiens.sapide"
+		services = "Services"
+		technologies = "Technologies"
+		portfolio = "Réalisations"
+		contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #    url = "http://gohugo.io"
+    #    name = "Hugo"
+    #    weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+        url = "https://twitter.com/sapienSSapide"
+        name = "twitter"
+        pre = "<i class='fa fa-twitter'></i>"
+        weight = 10
+
+    [[menu.postpend]]
+        url = "https://github.com/sapiens-sapide"
+        name = "github"
+        pre = "<i class='fa fa-github'></i>"
+        weight = 20
+
+    [[menu.postpend]]
+        url = "https://git.sapienssapide.com:300/explore"
+        name = "git"
+        pre = "<i class='fa fa-git'></i>"
+        weight = 30
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "depuis 2008, nous faisons du conseil, du développement et de l'hébergement de services et d'applications Internet.\n\nNous utilisons exclusivement des logiciels libres."
+		subtitle = ""
+		buttonText = "En savoir plus"
+
+	# Services section
+	[params.services]
+        enable = true
+		title = "Services"
+		subtitle = "Nous réalisons et hébergeons :"
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "fa-globe"
+                title = "des sites web"
+                description = "nous travaillons avec un réseau d'agences et de graphistes pour la conception graphique"
+
+            [[params.services.row.list]]
+                icon = "fa-mobile"
+                title = "des applications mobiles"
+                description = "pour les professionels ou le grand public"
+
+            [[params.services.row.list]]
+                icon = "fa-tachometer"
+                title = "des applications de gestion"
+                description = "contrôle qualité, interfaces de supervision, services d'entreprise…"
+
+            [[params.services.row.list]]
+                icon = "fa-database"
+                title = "des bases de données"
+                description = "conception, mise en œuvre, interfaces de gestion et hébergement"
+
+    # Technologies section
+	[params.technologies]
+        enable = true
+		title = "Technologies"
+		subtitle = ""
+
+        [[params.technologies.row]]
+
+            [[params.technologies.row.list]]
+                title = "Principaux langages de programmation : "
+                description = "Javascript, Go, C"
+
+            [[params.technologies.row.list]]
+                title = "Frameworks"
+                description = "meteorJS, nodeJS, wordpress, phonegap, hugo"
+
+            [[params.technologies.row.list]]
+                title = "bases de données"
+                description = "mongoDB, postgreSQL, sqlcipher"
+
+            [[params.technologies.row.list]]
+                title = "frameworks CSS"
+                description = "bootstrap, semantic-ui, foundation"
+
+            [[params.technologies.row.list]]
+                title = "administration système"
+                description = "freeBSD"
+
+            [[params.technologies.row.list]]
+                title = "et aussi : "
+                description = "postfix, dovecot, apache, nginx, roundcube, webDAV…"
+
+	# Portfolio section
+	[params.portfolio]
+        enable = true
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more informtion take a look at the README.
+		title = "Nos dernières réalisations"
+		subtitle = ""
+
+	# Client section
+    [params.clients_list]
+        enable = true
+
+    	# All the clients' logos are stored under 'static/img/logos'.
+    	# Replace them with your clients's logos.
+    	[[params.clients]]
+    		logo = "marianne.png"
+    		link = "http://www.marianne.net"
+
+    	[[params.clients]]
+    		logo = "nealite.png"
+    		link = "http://www.nealite.fr"
+
+    	[[params.clients]]
+    		logo = "area17.png"
+    		link = "http://www.area17.com"
+
+    	[[params.clients]]
+    		logo = "swad.png"
+    		link = "http://www.swad.fr"
+
+    	[[params.clients]]
+    		logo = "wan-ifra.png"
+    		link = "http://www.wan-ifra.org"
+
+    	[[params.clients]]
+    		logo = "lefigaro.png"
+    		link = "http://www.lefigaro.fr"
+
+    	[[params.clients]]
+    		logo = "concept-recrutement.png"
+    		link = "http://www.concept-recrutement.fr/"
+
+    	[[params.clients]]
+    		logo = "delormeau.png"
+    		link = "http://www.delormeau.eu/"
+	# Contact section
+	[params.contact]
+        enable = true
+		title = "Contact"
+		subtitle  = ""
+		buttonText = "Envoyez votre message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Nom *"
+			warning = "Merci de saisir votre nom."
+
+		[params.contact.form.email]
+			text = "E-mail *"
+			warning = "Merci de saisir une adresse email."
+
+		[params.contact.form.phone]
+			text = "Téléphone *"
+			warning = "Merci de saisir un n° de tél."
+
+		[params.contact.form.message]
+			text = "Votre Message *"
+			warning = "Merci de saisir un message."
+
+
+	# Footer section
+	[params.footer]
+        enable = true
+		copyright = ""
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "https://twitter.com/sapienSSapide"
+
+		[[params.footer.social]]
+			icon = "fa-linkedin"
+			link = "https://www.linkedin.com/in/stansabatier"
+
+		[[params.footer.social]]
+			icon = "fa-github"
+			link = "https://github.com/sapiens-sapide"
+
+		[[params.footer.social]]
+			icon = "fa-git"
+			link = "https://git.sapienssapide.com:300/explore"

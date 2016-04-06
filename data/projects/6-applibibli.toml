@@ -1,0 +1,7 @@
+title = "AppliBibli"
+subtitle = "Application mobile de consultation des comptes des usagers des bibliothèques de la Ville de Paris"
+preview = "applibibli.png"
+clientLink = "https://bibli.sapienssapide.com"
+tags = ["nodeJS","Apache Cordova", "Sencha touch"]
+#max 20 words
+description = "Application mobile iOS et Android qui s'est interfacée au SI existant sans modification de ce dernier."

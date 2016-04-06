@@ -1,0 +1,7 @@
+title = "L.E.A avocats"
+subtitle = "Site web du cabinet d'avocats, appli mobile et bases de décisions de justices"
+preview = "lea.png"
+clientLink = "https://www.lea-avocats.com"
+tags = ["WordPress","mongoDB", "MeteorJS"]
+#max 20 words
+description = "Site web de présentation, information, actualités. Application mobile. Base de données des décisions de justice obtenues par le cabinet."

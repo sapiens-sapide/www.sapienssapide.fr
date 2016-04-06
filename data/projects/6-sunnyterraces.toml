@@ -1,0 +1,7 @@
+title = "SunnyTerraces"
+subtitle = "Application mobile qui indique l'ensoleillement des terrasses de café"
+preview = "sunny-terraces.png"
+clientLink = "http://37.59.38.171:50001/"
+tags = ["nodeJS"]
+#max 20 words
+description = "Prototype d'une application qui calcule chaque jour l'ensoleillement des terraces en fonction des obstacles qui sont devant."
