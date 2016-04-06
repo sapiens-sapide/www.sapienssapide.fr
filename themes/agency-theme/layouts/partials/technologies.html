@@ -1,0 +1,23 @@
+{{ "<!-- Services -->" | safeHTML }}
+<section id="technologies">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.technologies.title }}{{ . }}{{ end }}</h2>
+                <h3 class="section-subheading text-muted">{{ with .Site.Params.technologies.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+            </div>
+        </div>
+
+        {{ range .Site.Params.technologies.row }}
+        <div class="row text-center">
+            {{ range .list }}
+            <div class="col-md-4">
+                <h4 class="service-heading">{{ .title | markdownify }}</h4>
+                <p class="text-muted">{{ .description | markdownify }}</p>
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+
+    </div>
+</section>
