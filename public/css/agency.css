@@ -199,6 +199,9 @@ fieldset[disabled] .btn-xl.active {
     min-width: 357px;
 }
 
+.navbar-default .container {
+    width: 100%;
+}
 .navbar-default .navbar-brand {
     font-family: "Marzo", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #09f;
@@ -264,7 +267,17 @@ fieldset[disabled] .btn-xl.active {
     background-color: #09f;
 }
 
-@media (min-width: 768px) {
+ul.nav.navbar-nav {
+    font-size: 12px;
+}
+
+@media (min-width: 752px) {
+    .navbar-nav > li {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 830px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -273,11 +286,8 @@ fieldset[disabled] .btn-xl.active {
         transition: padding .3s;
     }
 
-    .navbar-default .navbar-brand {
-        font-size: 4em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
+    .navbar-nav > li {
+        font-size: 12px;
     }
 
     .navbar-default .navbar-nav > .active > a {
@@ -289,11 +299,29 @@ fieldset[disabled] .btn-xl.active {
         background-color: #222;
     }
 
-    .navbar-default.navbar-shrink .navbar-brand {
+    .navbar-default .navbar-brand {
         font-size: 3em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
     }
 }
 
+@media (min-width: 992px) {
+    .navbar-nav > li {
+        font-size: 14px;
+    }
+
+    .navbar > .container .navbar-brand {
+        margin-left: -20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navbar-nav > li.postpend-menu {
+        display: none;
+    }
+}
 header {
     text-align: center;
     color: #fff;
@@ -372,9 +400,15 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 830px) {
     section {
-        padding: 50px 0;
+        padding: 70px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    section {
+        padding: 90px;
     }
 }
 
@@ -464,7 +498,7 @@ section h3.section-subheading {
         font-size: 1.8rem;
     }
 
-    .portfolio-caption p.text-muted {
+    p.text-muted {
         min-height: 56px;
     }
 }
@@ -474,7 +508,7 @@ section h3.section-subheading {
         font-size: 1.5rem;
     }
 
-    .portfolio-caption p.text-muted {
+    p.text-muted {
         min-height: 84px;
     }
 }
@@ -629,12 +663,6 @@ section h3.section-subheading {
     }
 }
 
-@media (max-width: 991px) {
-    .navbar-nav > li.postpend-menu {
-        display: none;
-    }
-}
-
 @media (min-width: 992px) {
     .timeline > li {
         min-height: 150px;
@@ -662,6 +690,11 @@ section h3.section-subheading {
 }
 
 @media (min-width: 1200px) {
+
+    .navbar-default .container {
+        width: 1170px;
+    }
+
     .timeline > li {
         min-height: 170px;
     }
