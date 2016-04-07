@@ -113,7 +113,7 @@ theme = "agency-theme"
         [[params.technologies.row]]
 
             [[params.technologies.row.list]]
-                title = "Principaux langages de programmation : "
+                title = "Principaux langages"
                 description = "Javascript, Go, C"
 
             [[params.technologies.row.list]]
