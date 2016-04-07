@@ -1,5 +1,5 @@
 title = "AppliBibli"
-subtitle = "Application mobile de consultation des comptes des usagers des bibliothèques de la Ville de Paris"
+subtitle = "Appli de consultation des comptes des bibliothèques de la Ville de Paris"
 preview = "applibibli.png"
 clientLink = "https://bibli.sapienssapide.com"
 tags = ["nodeJS","Apache Cordova", "Sencha touch"]

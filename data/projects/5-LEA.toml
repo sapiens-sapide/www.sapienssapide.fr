@@ -4,4 +4,4 @@ preview = "lea.png"
 clientLink = "https://www.lea-avocats.com"
 tags = ["WordPress","mongoDB", "MeteorJS"]
 #max 20 words
-description = "Site web de présentation, information, actualités. Application mobile. Base de données des décisions de justice obtenues par le cabinet."
+description = "Site web de présentation et d'actualités. Application mobile. Base de données des décisions de justice obtenues par le cabinet."

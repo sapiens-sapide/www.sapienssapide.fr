@@ -1,10 +1,10 @@
 {{ "<!-- Clients Aside -->" | safeHTML }}
 <aside class="clients">
     <div class="container">
+        <h3>Et aussi :</h3>
         <div class="row">
-            <h3>Et aussi :</h3>
             {{ range .Site.Params.clients }}
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-2 col-sm-3 col-xs-4 client-section">
                 <a href="{{ .link }}">
                     <img src="img/logos/{{ .logo }}" class="img-responsive img-centered" alt="">
                 </a>

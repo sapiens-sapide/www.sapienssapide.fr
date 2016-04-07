@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
+            <a class="navbar-brand page-scroll" href="#page-top">sapiens<span class="navbar-brand-dot">.</span>sapide</a>
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -61,7 +61,7 @@
                 {{ end }}
 
                 {{ range .Site.Menus.postpend }}
-                <li>
+                <li class="postpend-menu">
                     <a href="{{ .URL }}">{{ .Pre }}</a>
                 </li>
                 {{ end }}
