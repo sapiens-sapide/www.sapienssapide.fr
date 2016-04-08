@@ -1,7 +1,7 @@
 title = "Go Théâtre"
 subtitle = "L'appli mobile de Théâtral magazine"
 preview = "gotheatre.png"
-clientLink = "https://www.gotheatre.fr"
+clientLink = "http://www.gotheatre.fr"
 tags = ["MeteorJS","Apache Cordova","iOS","Android","Go","semantic-ui"]
 #max 20 words
 description = "Développement full-stack d'une appli mobile iOS/Android + interface d'administration des contenus pour l'éditeur"
