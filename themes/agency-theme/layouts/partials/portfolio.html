@@ -17,14 +17,11 @@
                                 {{ .description }}
                             </div>
                             <div class="portfolio-hover-tags">
-                                {{ range .tags }}
-                                <span class="portfolio-tags">#{{ . }}</span>
-                                {{ end }}
+                                {{ range .tags }} <span class="label label-default portfolio-tags">#{{ upper . }}</span> {{ end }}
                             </div>
                         </div>
                     </div>
-                    <img src="img/portfolio/{{ .preview }}" class="img-responsive" alt="">
-                </a>
+                    <img src="img/portfolio/{{ .preview }}" class="img-responsive" alt=""> </a>
                 <div class="portfolio-caption">
                     <h4>{{ .title | markdownify }}</h4>
                     <p class="text-muted">{{ .subtitle | markdownify }}</p>

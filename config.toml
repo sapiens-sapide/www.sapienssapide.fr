@@ -72,42 +72,42 @@ theme = "agency-theme"
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "depuis 2008, nous faisons du conseil, du développement et de l'hébergement de services et d'applications Internet.\n\nNous utilisons exclusivement des logiciels libres."
+		title = "Depuis 2008, nous développons et hébergeons des services et applications Internet.\n\nNous utilisons exclusivement des logiciels libres."
 		subtitle = ""
 		buttonText = "En savoir plus"
 
 	# Services section
 	[params.services]
         enable = true
-		title = "Services"
-		subtitle = "Nous réalisons et hébergeons :"
+		title = "Nos services"
+		subtitle = "Nous réalisons et **hébergeons** :"
 
         [[params.services.row]]
 
             [[params.services.row.list]]
                 icon = "fa-globe"
-                title = "des sites web"
+                title = "Des sites web"
                 description = "nous travaillons avec un réseau d'agences et de graphistes pour la conception graphique"
 
             [[params.services.row.list]]
                 icon = "fa-mobile"
-                title = "des applications mobiles"
+                title = "Des applications mobiles"
                 description = "pour les professionels ou le grand public"
 
             [[params.services.row.list]]
                 icon = "fa-tachometer"
-                title = "des applications de gestion"
+                title = "Des applications de gestion"
                 description = "contrôle qualité, interfaces de supervision, services d'entreprise…"
 
             [[params.services.row.list]]
                 icon = "fa-database"
-                title = "des bases de données"
+                title = "Des bases de données"
                 description = "conception, mise en œuvre, interfaces de gestion et hébergement"
 
     # Technologies section
 	[params.technologies]
         enable = true
-		title = "Technologies"
+		title = "Nos technologies"
 		subtitle = ""
 
         [[params.technologies.row]]
@@ -115,6 +115,7 @@ theme = "agency-theme"
             [[params.technologies.row.list]]
                 title = "Principaux langages"
                 description = "Javascript, Go, C"
+                img = "gopher.png"
 
             [[params.technologies.row.list]]
                 title = "Frameworks"
@@ -129,8 +130,9 @@ theme = "agency-theme"
                 description = "bootstrap, semantic-ui, foundation"
 
             [[params.technologies.row.list]]
-                title = "administration système"
-                description = "freeBSD"
+                title = "hébergement & admin système"
+                description = "Système freeBSD exclusivement, l'un des plus fiable au monde !"
+                img = "logo-freebsd.png"
 
             [[params.technologies.row.list]]
                 title = "et aussi : "
