@@ -1,6 +1,6 @@
 title = "Segid"
 subtitle = "Application web/mobile de gestion de la qualité"
-preview = "segid.png"
+preview = "segid.jpg"
 clientLink = "https://qualite.segid.fr"
 tags = ["MeteorJS","Go","mongoDB","css-bootstrap"]
 #max 20 words

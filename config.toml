@@ -155,11 +155,11 @@ theme = "agency-theme"
     	# All the clients' logos are stored under 'static/img/logos'.
     	# Replace them with your clients's logos.
     	[[params.clients]]
-    		logo = "marianne.png"
+    		logo = "marianne.jpg"
     		link = "http://www.marianne.net"
 
     	[[params.clients]]
-    		logo = "nealite.png"
+    		logo = "nealite.jpg"
     		link = "http://www.nealite.fr"
 
     	[[params.clients]]
@@ -167,7 +167,7 @@ theme = "agency-theme"
     		link = "http://www.area17.com"
 
     	[[params.clients]]
-    		logo = "swad.png"
+    		logo = "swad.jpg"
     		link = "http://www.swad.fr"
 
     	[[params.clients]]
