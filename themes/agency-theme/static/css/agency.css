@@ -271,6 +271,24 @@ ul.nav.navbar-nav {
     font-size: 12px;
 }
 
+.navbar-header:after {
+    clear: none;
+}
+
+.language-menu {
+    margin: 7px 0px 10px 15px;
+    font-size: 9px;
+}
+
+.language-menu a {
+    color: #ffffff;
+}
+
+span.language-code {
+    color: #8cc5c0;
+    display: block;
+}
+
 @media (min-width: 752px) {
     .navbar-nav > li {
         font-size: 10px;
