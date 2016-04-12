@@ -119,7 +119,7 @@ theme = "agency-theme"
 
             [[params.technologies.row.list]]
                 title = "Frameworks"
-                description = "meteorJS, nodeJS, wordpress, phonegap, hugo"
+                description = "meteorJS, nodeJS, wordpress, cordova, hugo"
 
             [[params.technologies.row.list]]
                 title = "bases de données"
