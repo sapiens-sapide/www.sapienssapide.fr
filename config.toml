@@ -235,4 +235,4 @@ theme = "agency-theme"
 
 		[[params.footer.social]]
 			icon = "fa-git"
-			link = "https://git.sapienssapide.com:300/explore"
+			link = "https://git.sapienssapide.com:3000/explore"
