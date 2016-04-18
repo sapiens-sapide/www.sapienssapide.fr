@@ -126,8 +126,8 @@ theme = "agency-theme"
                 description = "mongoDB, postgreSQL, sqlcipher"
 
             [[params.technologies.row.list]]
-                title = "frameworks CSS"
-                description = "bootstrap, semantic-ui, foundation"
+                title = "front-end frameworks"
+                description = "reactJS, bootstrap, semantic-ui, foundation"
 
             [[params.technologies.row.list]]
                 title = "hébergement & admin système"
