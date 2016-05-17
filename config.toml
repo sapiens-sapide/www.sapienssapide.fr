@@ -63,7 +63,7 @@ theme = "agency-theme"
         weight = 20
 
     [[menu.postpend]]
-        url = "https://git.sapienssapide.com:300/explore"
+        url = "https://git.sapienssapide.com"
         name = "git"
         pre = "<i class='fa fa-git'></i>"
         weight = 30
