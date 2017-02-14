@@ -1,0 +1,7 @@
+title = "PMU / Paris-Turf"
+subtitle = "Traitement temps réel de signaux de capteurs"
+preview = "pmu.png"
+clientLink = ""
+tags = ["100% GO"]
+#max 20 words
+description = "System de réception, calculs et restitution temps réel de 20 capteurs GPS/inertiel à 20hz. Tableau de course + rendu carte."

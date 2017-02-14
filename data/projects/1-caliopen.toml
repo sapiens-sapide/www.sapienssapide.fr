@@ -1,0 +1,7 @@
+title = "Caliopen"
+subtitle = "Service de messagerie vertueux. En cours…"
+preview = "caliopen.png"
+clientLink = "https://www.caliopen.org"
+tags = ["Go","python","cassandra","elasticsearch"]
+#max 20 words
+description = "Caliopen est un système de messagerie qui indique le niveau de confidentialité."

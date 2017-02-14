@@ -114,7 +114,7 @@ theme = "agency-theme"
 
             [[params.technologies.row.list]]
                 title = "Principaux langages"
-                description = "Javascript, Go, C"
+                description = "Go, Javascript, C, Python"
                 img = "gopher.png"
 
             [[params.technologies.row.list]]
@@ -123,7 +123,7 @@ theme = "agency-theme"
 
             [[params.technologies.row.list]]
                 title = "bases de données"
-                description = "mongoDB, postgreSQL, sqlcipher"
+                description = "mongoDB, postgreSQL, cassandra, elasticsearch"
 
             [[params.technologies.row.list]]
                 title = "front-end frameworks"
